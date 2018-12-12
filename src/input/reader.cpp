@@ -4,7 +4,7 @@
 
 #include "reader.h"
 
-Reader::Reader(std::string base) {g
+Reader::Reader(std::string base) {
 
     if (base[base.size() - 1] != '/')
         base.push_back('/');
