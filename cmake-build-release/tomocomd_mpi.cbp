@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tomocomd_mpi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tomocomd_mpi">
+				<Option output="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/tomocomd_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/openbabel-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 tomocomd_mpi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tomocomd_mpi/fast">
+				<Option output="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/tomocomd_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/openbabel-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 tomocomd_mpi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input/reader.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics/CanberraMetric.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics/Metric.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics/MinkowskiMetric.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils/CLI11.hpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils/CParser.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/parallel_tomocomd.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/input/reader.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/metrics/CanberraMetric.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/metrics/Metric.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/metrics/MinkowskiMetric.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/utils/CParser.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake/modules/FindOpenBabel.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
