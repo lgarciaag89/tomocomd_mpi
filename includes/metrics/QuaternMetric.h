@@ -13,10 +13,13 @@
 
 using namespace OpenBabel;
 class QuaternMetric : public Metric {
+protected:
+    BinaryMetric *metric;
 public:
-    QuaternMetric(){};
-    ~QuaternMetric(){};
-    virtual double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c, OBAtom atom_d)=0;
+    QuaternMetric(BinaryMetric *metric){this->metric=metric;};
+    ~QuaternMetric(){delete metric;};
+    void setMetric(BinaryMetric *metric){this->metric=metric;};
+    virtual double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c, OBAtom *atom_d)=0;
 //    virtual Metric* clone() = 0;
 };
 

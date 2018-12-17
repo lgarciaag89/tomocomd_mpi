@@ -9,9 +9,8 @@
 
 class DihedralAngleMetric : public QuaternMetric{
 public:
-    DihedralAngleMetric(){};
-    ~PyramidVolumeMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c,OBAtom atom_d);
+    DihedralAngleMetric(BinaryMetric *metric):QuaternMetric(metric){};
+    double metricValue(BinaryMetric *metric,OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c,OBAtom *atom_d);
 };
 
 

@@ -16,7 +16,7 @@ using namespace OpenBabel;
 class CanberraMetric : public BinaryMetric{
 public:
     CanberraMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

@@ -9,8 +9,8 @@
 
 class PerimeterTernaryMetric : public TernaryMetric {
 public:
-    PerimeterTernaryMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c);
+    PerimeterTernaryMetric(BinaryMetric *metric):TernaryMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c);
 };
 
 

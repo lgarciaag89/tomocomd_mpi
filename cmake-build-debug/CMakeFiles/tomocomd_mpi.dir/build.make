@@ -609,6 +609,126 @@ CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o.provides: CMak
 CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o
 
 
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o: CMakeFiles/tomocomd_mpi.dir/flags.make
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o: ../src/matrices/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o"
+	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o -c /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/Matrix.cpp
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.i"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/Matrix.cpp > CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.i
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.s"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/Matrix.cpp -o CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.s
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.requires:
+
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.requires
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.provides: CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.provides.build
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.provides
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o
+
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o: CMakeFiles/tomocomd_mpi.dir/flags.make
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o: ../src/matrices/ComputeDiagonal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o"
+	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o -c /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/ComputeDiagonal.cpp
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.i"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/ComputeDiagonal.cpp > CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.i
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.s"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/ComputeDiagonal.cpp -o CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.s
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.requires:
+
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.requires
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.provides: CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.provides.build
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.provides
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o
+
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o: CMakeFiles/tomocomd_mpi.dir/flags.make
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o: ../src/matrices/SymMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o"
+	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o -c /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/SymMatrix.cpp
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.i"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/SymMatrix.cpp > CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.i
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.s"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/SymMatrix.cpp -o CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.s
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.requires:
+
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.requires
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.provides: CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.provides.build
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.provides
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o
+
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o: CMakeFiles/tomocomd_mpi.dir/flags.make
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o: ../src/matrices/GenMatrixTriples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o"
+	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o -c /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixTriples.cpp
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.i"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixTriples.cpp > CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.i
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.s"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixTriples.cpp -o CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.s
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.requires:
+
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.requires
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.provides: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.provides.build
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.provides
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o
+
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o: CMakeFiles/tomocomd_mpi.dir/flags.make
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o: ../src/matrices/GenMatrixQuaterns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o"
+	/usr/bin/mpicxx  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o -c /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixQuaterns.cpp
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.i"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixQuaterns.cpp > CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.i
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.s"
+	/usr/bin/mpicxx $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixQuaterns.cpp -o CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.s
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.requires:
+
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.requires
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.provides: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.provides.build
+.PHONY : CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.provides
+
+CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.provides.build: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o
+
+
 # Object files for target tomocomd_mpi
 tomocomd_mpi_OBJECTS = \
 "CMakeFiles/tomocomd_mpi.dir/parallel_tomocomd.cpp.o" \
@@ -633,7 +753,12 @@ tomocomd_mpi_OBJECTS = \
 "CMakeFiles/tomocomd_mpi.dir/src/metrics/PerimeterQuaternMetric.cpp.o" \
 "CMakeFiles/tomocomd_mpi.dir/src/metrics/PyramidVolumeMetric.cpp.o" \
 "CMakeFiles/tomocomd_mpi.dir/src/metrics/BondAngleMetric.cpp.o" \
-"CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o"
+"CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o" \
+"CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o" \
+"CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o" \
+"CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o" \
+"CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o" \
+"CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o"
 
 # External object files for target tomocomd_mpi
 tomocomd_mpi_EXTERNAL_OBJECTS =
@@ -661,14 +786,21 @@ tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/metrics/PerimeterQuaternMetric.cpp
 tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/metrics/PyramidVolumeMetric.cpp.o
 tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/metrics/BondAngleMetric.cpp.o
 tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o
+tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o
+tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o
+tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o
+tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o
+tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o
 tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/build.make
 tomocomd_mpi: /usr/lib/x86_64-linux-gnu/libboost_system.so
 tomocomd_mpi: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 tomocomd_mpi: /usr/lib/libopenbabel.so
 tomocomd_mpi: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so
 tomocomd_mpi: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+tomocomd_mpi: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjawt.so
+tomocomd_mpi: /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
 tomocomd_mpi: CMakeFiles/tomocomd_mpi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable tomocomd_mpi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable tomocomd_mpi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tomocomd_mpi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -699,6 +831,11 @@ CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/metrics/Pe
 CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/metrics/PyramidVolumeMetric.cpp.o.requires
 CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/metrics/BondAngleMetric.cpp.o.requires
 CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o.requires
+CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o.requires
+CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o.requires
+CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o.requires
+CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o.requires
+CMakeFiles/tomocomd_mpi.dir/requires: CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o.requires
 
 .PHONY : CMakeFiles/tomocomd_mpi.dir/requires
 

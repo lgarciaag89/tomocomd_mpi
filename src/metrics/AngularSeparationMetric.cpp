@@ -5,9 +5,9 @@
 #include "AngularSeparationMetric.h"
 
 
-double AngularSeparationMetric::metricValue(OBAtom atom_a, OBAtom atom_b){
-    OpenBabel::vector3 coords_a = atom_a.GetVector();
-    OpenBabel::vector3 coords_b = atom_b.GetVector();
+double AngularSeparationMetric::metricValue(OBAtom *atom_a, OBAtom *atom_b){
+    OpenBabel::vector3 coords_a = atom_a->GetVector();
+    OpenBabel::vector3 coords_b = atom_b->GetVector();
 
     double result = 0.0, dividendo = 0, divisor = 0;
     double sum_x = 0.0, sum_y = 0.0;

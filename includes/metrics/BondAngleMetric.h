@@ -10,8 +10,8 @@
 
 class BondAngleMetric : public TernaryMetric {
 public:
-    BondAngleMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c);
+    BondAngleMetric(BinaryMetric *metric):TernaryMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c);
 };
 
 

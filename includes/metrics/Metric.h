@@ -13,7 +13,6 @@
 using namespace OpenBabel;
 class Metric {
 protected:
-    std::string key;
 
 public:
     Metric(){};

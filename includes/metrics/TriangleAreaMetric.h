@@ -9,8 +9,8 @@
 
 class TriangleAreaMetric : public TernaryMetric {
 public:
-    TriangleAreaMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c);
+    TriangleAreaMetric(BinaryMetric *metric):TernaryMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c);
 };
 
 

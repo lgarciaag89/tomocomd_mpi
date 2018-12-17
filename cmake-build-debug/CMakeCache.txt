@@ -205,6 +205,45 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
+
+//Path to a file.
+JAVA_AWT_INCLUDE_PATH:PATH=/usr/lib/jvm/java-8-openjdk-amd64/include
+
+//Path to a library.
+JAVA_AWT_LIBRARY:FILEPATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjawt.so
+
+//Path to a file.
+JAVA_INCLUDE_PATH:PATH=/usr/lib/jvm/java-8-openjdk-amd64/include
+
+//Path to a file.
+JAVA_INCLUDE_PATH2:PATH=/usr/lib/jvm/java-8-openjdk-amd64/include/linux
+
+//Path to a library.
+JAVA_JVM_LIBRARY:FILEPATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+
+//Path to a program.
+Java_IDLJ_EXECUTABLE:FILEPATH=/usr/bin/idlj
+
+//Path to a program.
+Java_JARSIGNER_EXECUTABLE:FILEPATH=/usr/bin/jarsigner
+
+//Path to a program.
+Java_JAR_EXECUTABLE:FILEPATH=/usr/bin/jar
+
+//Path to a program.
+Java_JAVAC_EXECUTABLE:FILEPATH=/usr/bin/javac
+
+//Path to a program.
+Java_JAVADOC_EXECUTABLE:FILEPATH=/usr/bin/javadoc
+
+//Path to a program.
+Java_JAVAH_EXECUTABLE:FILEPATH=/usr/bin/javah
+
+//Path to a program.
+Java_JAVA_EXECUTABLE:FILEPATH=/usr/bin/java
+
 //Executable for running MPI programs.
 MPIEXEC:FILEPATH=/usr/bin/mpiexec
 
@@ -454,10 +493,38 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding JNI
+FIND_PACKAGE_MESSAGE_DETAILS_JNI:INTERNAL=[/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libjawt.so][/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so][/usr/lib/jvm/java-8-openjdk-amd64/include][/usr/lib/jvm/java-8-openjdk-amd64/include/linux][/usr/lib/jvm/java-8-openjdk-amd64/include][v()]
+//Details about finding Java
+FIND_PACKAGE_MESSAGE_DETAILS_Java:INTERNAL=[/usr/bin/java][/usr/bin/jar][/usr/bin/javac][/usr/bin/javah][/usr/bin/javadoc][v1.8.0.191()]
 //Details about finding MPI_C
 FIND_PACKAGE_MESSAGE_DETAILS_MPI_C:INTERNAL=[/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so][/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include;/usr/lib/x86_64-linux-gnu/openmpi/include][v()]
 //Details about finding MPI_CXX
 FIND_PACKAGE_MESSAGE_DETAILS_MPI_CXX:INTERNAL=[/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so][/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent;/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include;/usr/lib/x86_64-linux-gnu/openmpi/include][v()]
+//ADVANCED property for variable: JAVA_AWT_INCLUDE_PATH
+JAVA_AWT_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_AWT_LIBRARY
+JAVA_AWT_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_INCLUDE_PATH
+JAVA_INCLUDE_PATH-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_INCLUDE_PATH2
+JAVA_INCLUDE_PATH2-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JAVA_JVM_LIBRARY
+JAVA_JVM_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_IDLJ_EXECUTABLE
+Java_IDLJ_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JARSIGNER_EXECUTABLE
+Java_JARSIGNER_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JAR_EXECUTABLE
+Java_JAR_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JAVAC_EXECUTABLE
+Java_JAVAC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JAVADOC_EXECUTABLE
+Java_JAVADOC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JAVAH_EXECUTABLE
+Java_JAVAH_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Java_JAVA_EXECUTABLE
+Java_JAVA_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC
 MPIEXEC-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPIEXEC_MAX_NUMPROCS

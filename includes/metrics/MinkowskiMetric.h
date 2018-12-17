@@ -18,7 +18,7 @@ public:
     MinkowskiMetric():BinaryMetric(){p=0.0;};
     MinkowskiMetric(double p){this->p=p;};
     ~MinkowskiMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

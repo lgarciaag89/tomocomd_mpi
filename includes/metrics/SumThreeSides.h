@@ -9,8 +9,8 @@
 #include <QuaternMetric.h>
 
 class SumThreeSides : public QuaternMetric{
-    SumThreeSides(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c,OBAtom atom_d);
+    SumThreeSides(BinaryMetric *metric):QuaternMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c,OBAtom *atom_d);
 };
 
 

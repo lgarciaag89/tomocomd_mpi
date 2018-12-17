@@ -10,9 +10,8 @@
 
 class PyramidVolumeMetric : public QuaternMetric{
 public:
-    PyramidVolumeMetric(){};
-    ~PyramidVolumeMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c,OBAtom atom_d);
+    PyramidVolumeMetric(BinaryMetric *metric):QuaternMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c,OBAtom *atom_d);
 };
 
 

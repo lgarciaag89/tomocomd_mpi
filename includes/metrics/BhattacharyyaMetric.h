@@ -15,7 +15,7 @@ class BhattacharyyaMetric : public BinaryMetric {
 protected:
     double p;
 public:
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

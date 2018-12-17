@@ -177,6 +177,141 @@ src/input/reader.cpp.s:
 	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/input/reader.cpp.s
 .PHONY : src/input/reader.cpp.s
 
+src/matrices/ComputeDiagonal.o: src/matrices/ComputeDiagonal.cpp.o
+
+.PHONY : src/matrices/ComputeDiagonal.o
+
+# target to build an object file
+src/matrices/ComputeDiagonal.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o
+.PHONY : src/matrices/ComputeDiagonal.cpp.o
+
+src/matrices/ComputeDiagonal.i: src/matrices/ComputeDiagonal.cpp.i
+
+.PHONY : src/matrices/ComputeDiagonal.i
+
+# target to preprocess a source file
+src/matrices/ComputeDiagonal.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.i
+.PHONY : src/matrices/ComputeDiagonal.cpp.i
+
+src/matrices/ComputeDiagonal.s: src/matrices/ComputeDiagonal.cpp.s
+
+.PHONY : src/matrices/ComputeDiagonal.s
+
+# target to generate assembly for a file
+src/matrices/ComputeDiagonal.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.s
+.PHONY : src/matrices/ComputeDiagonal.cpp.s
+
+src/matrices/GenMatrixQuaterns.o: src/matrices/GenMatrixQuaterns.cpp.o
+
+.PHONY : src/matrices/GenMatrixQuaterns.o
+
+# target to build an object file
+src/matrices/GenMatrixQuaterns.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o
+.PHONY : src/matrices/GenMatrixQuaterns.cpp.o
+
+src/matrices/GenMatrixQuaterns.i: src/matrices/GenMatrixQuaterns.cpp.i
+
+.PHONY : src/matrices/GenMatrixQuaterns.i
+
+# target to preprocess a source file
+src/matrices/GenMatrixQuaterns.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.i
+.PHONY : src/matrices/GenMatrixQuaterns.cpp.i
+
+src/matrices/GenMatrixQuaterns.s: src/matrices/GenMatrixQuaterns.cpp.s
+
+.PHONY : src/matrices/GenMatrixQuaterns.s
+
+# target to generate assembly for a file
+src/matrices/GenMatrixQuaterns.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.s
+.PHONY : src/matrices/GenMatrixQuaterns.cpp.s
+
+src/matrices/GenMatrixTriples.o: src/matrices/GenMatrixTriples.cpp.o
+
+.PHONY : src/matrices/GenMatrixTriples.o
+
+# target to build an object file
+src/matrices/GenMatrixTriples.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o
+.PHONY : src/matrices/GenMatrixTriples.cpp.o
+
+src/matrices/GenMatrixTriples.i: src/matrices/GenMatrixTriples.cpp.i
+
+.PHONY : src/matrices/GenMatrixTriples.i
+
+# target to preprocess a source file
+src/matrices/GenMatrixTriples.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.i
+.PHONY : src/matrices/GenMatrixTriples.cpp.i
+
+src/matrices/GenMatrixTriples.s: src/matrices/GenMatrixTriples.cpp.s
+
+.PHONY : src/matrices/GenMatrixTriples.s
+
+# target to generate assembly for a file
+src/matrices/GenMatrixTriples.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.s
+.PHONY : src/matrices/GenMatrixTriples.cpp.s
+
+src/matrices/Matrix.o: src/matrices/Matrix.cpp.o
+
+.PHONY : src/matrices/Matrix.o
+
+# target to build an object file
+src/matrices/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o
+.PHONY : src/matrices/Matrix.cpp.o
+
+src/matrices/Matrix.i: src/matrices/Matrix.cpp.i
+
+.PHONY : src/matrices/Matrix.i
+
+# target to preprocess a source file
+src/matrices/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.i
+.PHONY : src/matrices/Matrix.cpp.i
+
+src/matrices/Matrix.s: src/matrices/Matrix.cpp.s
+
+.PHONY : src/matrices/Matrix.s
+
+# target to generate assembly for a file
+src/matrices/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.s
+.PHONY : src/matrices/Matrix.cpp.s
+
+src/matrices/SymMatrix.o: src/matrices/SymMatrix.cpp.o
+
+.PHONY : src/matrices/SymMatrix.o
+
+# target to build an object file
+src/matrices/SymMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o
+.PHONY : src/matrices/SymMatrix.cpp.o
+
+src/matrices/SymMatrix.i: src/matrices/SymMatrix.cpp.i
+
+.PHONY : src/matrices/SymMatrix.i
+
+# target to preprocess a source file
+src/matrices/SymMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.i
+.PHONY : src/matrices/SymMatrix.cpp.i
+
+src/matrices/SymMatrix.s: src/matrices/SymMatrix.cpp.s
+
+.PHONY : src/matrices/SymMatrix.s
+
+# target to generate assembly for a file
+src/matrices/SymMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.s
+.PHONY : src/matrices/SymMatrix.cpp.s
+
 src/metrics/AngularSeparationMetric.o: src/metrics/AngularSeparationMetric.cpp.o
 
 .PHONY : src/metrics/AngularSeparationMetric.o
@@ -759,6 +894,21 @@ help:
 	@echo "... src/input/reader.o"
 	@echo "... src/input/reader.i"
 	@echo "... src/input/reader.s"
+	@echo "... src/matrices/ComputeDiagonal.o"
+	@echo "... src/matrices/ComputeDiagonal.i"
+	@echo "... src/matrices/ComputeDiagonal.s"
+	@echo "... src/matrices/GenMatrixQuaterns.o"
+	@echo "... src/matrices/GenMatrixQuaterns.i"
+	@echo "... src/matrices/GenMatrixQuaterns.s"
+	@echo "... src/matrices/GenMatrixTriples.o"
+	@echo "... src/matrices/GenMatrixTriples.i"
+	@echo "... src/matrices/GenMatrixTriples.s"
+	@echo "... src/matrices/Matrix.o"
+	@echo "... src/matrices/Matrix.i"
+	@echo "... src/matrices/Matrix.s"
+	@echo "... src/matrices/SymMatrix.o"
+	@echo "... src/matrices/SymMatrix.i"
+	@echo "... src/matrices/SymMatrix.s"
 	@echo "... src/metrics/AngularSeparationMetric.o"
 	@echo "... src/metrics/AngularSeparationMetric.i"
 	@echo "... src/metrics/AngularSeparationMetric.s"

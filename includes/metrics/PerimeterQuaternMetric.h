@@ -10,8 +10,8 @@
 
 class PerimeterQuaternMetric : public QuaternMetric{
 public:
-    PerimeterQuaternMetric(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c,OBAtom atom_d);
+    PerimeterQuaternMetric(BinaryMetric *metric):QuaternMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c,OBAtom *atom_d);
 
 };
 

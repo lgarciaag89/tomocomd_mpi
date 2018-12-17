@@ -14,7 +14,7 @@ using namespace OpenBabel;
 class WaveEdgesMetric : public BinaryMetric{
 public:
     WaveEdgesMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 #endif //TOMOCOMD_MPI_WAVEEDGESMETRIC_H

@@ -16,7 +16,7 @@ class AngularSeparationMetric : public BinaryMetric{
 
 public:
     AngularSeparationMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 #endif //TOMOCOMD_MPI_ANGULARSEPARATIONMETRIC_H

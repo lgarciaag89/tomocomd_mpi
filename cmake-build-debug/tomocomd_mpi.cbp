@@ -5,7 +5,7 @@
 		<Option title="tomocomd_mpi"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake-build-debug"/>
@@ -49,9 +49,15 @@
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/libs"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/cutoff"/>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -80,9 +86,15 @@
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/opal/mca/event/libevent2022/libevent/include"/>
 					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-8-openjdk-amd64/include/linux"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/libs"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/utils"/>
 					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices"/>
+					<Add directory="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/cutoff"/>
+					<Add directory="/usr/include/eigen3"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -101,6 +113,21 @@
 			</Target>
 		</Build>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input/reader.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices/ComputeDiagonal.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices/GenMatrixQuaterns.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices/GenMatrixTriples.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices/Matrix.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/matrices/SymMatrix.h">
 			<Option target="tomocomd_mpi"/>
 		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/metrics/AngularSeparationMetric.h">
@@ -184,6 +211,21 @@
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/input/reader.cpp">
 			<Option target="tomocomd_mpi"/>
 		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/ComputeDiagonal.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixQuaterns.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/GenMatrixTriples.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/Matrix.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/matrices/SymMatrix.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/metrics/AngularSeparationMetric.cpp">
 			<Option target="tomocomd_mpi"/>
 		</Unit>
@@ -252,6 +294,15 @@
 		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/cmake/modules/FindOpenBabel.cmake">
 			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/../../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/../../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/../../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

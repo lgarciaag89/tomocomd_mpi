@@ -4,7 +4,8 @@
 
 #include "SumThreeSides.h"
 
-double SumThreeSides::metricValue(BinaryMetric *metric, OBAtom atom_a, OBAtom atom_b, OBAtom atom_c, OBAtom atom_d) {
+double SumThreeSides::metricValue( OBAtom *atom_a, OBAtom *atom_b,
+                                  OBAtom *atom_c, OBAtom *atom_d) {
     double ab = metric->metricValue(atom_a,atom_b);
     double bc = metric->metricValue(atom_b,atom_c);
     double cd = metric->metricValue(atom_c,atom_d);

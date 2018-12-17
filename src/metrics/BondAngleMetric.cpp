@@ -4,9 +4,10 @@
 
 #include "BondAngleMetric.h"
 
-double BondAngleMetric::metricValue(BinaryMetric *metric, OBAtom atom_a, OBAtom atom_b, OBAtom atom_c) {
-    OpenBabel::vector3 u = atom_a.GetVector()-atom_b.GetVector();
-    OpenBabel::vector3 v = atom_c.GetVector()-atom_b.GetVector();
+double BondAngleMetric::metricValue( OBAtom *atom_a, OBAtom *atom_b,
+                                    OBAtom *atom_c) {
+    OpenBabel::vector3 u = atom_a->GetVector()-atom_b->GetVector();
+    OpenBabel::vector3 v = atom_c->GetVector()-atom_b->GetVector();
 
     double uv = 0.0, mod_u = 0.0, mod_v = 0.0;
 

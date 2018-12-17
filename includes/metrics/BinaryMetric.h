@@ -19,7 +19,7 @@ protected:
 public:
     BinaryMetric(){};
     ~BinaryMetric(){};
-    virtual double metricValue(OBAtom atom_a, OBAtom atom_b)=0;
+    virtual double metricValue(OBAtom *atom_a, OBAtom *atom_b)=0;
 //    virtual Metric* clone() = 0;
 };
 

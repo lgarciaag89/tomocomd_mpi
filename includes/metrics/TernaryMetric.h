@@ -13,10 +13,13 @@
 
 using namespace OpenBabel;
 class TernaryMetric : public Metric {
+protected:
+    BinaryMetric *metric;
 public:
-    TernaryMetric(){};
-    ~TernaryMetric(){};
-    virtual double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c)=0;
+    TernaryMetric(BinaryMetric *metric){this->metric=metric;};
+    ~TernaryMetric(){delete metric;};
+    void setMetric(BinaryMetric *metric){this->metric=metric;};
+    virtual double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c)=0;
 //    virtual Metric* clone() = 0;
 };
 

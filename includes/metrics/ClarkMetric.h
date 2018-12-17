@@ -14,7 +14,7 @@ using namespace OpenBabel;
 class ClarkMetric : public BinaryMetric {
 public:
     ClarkMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

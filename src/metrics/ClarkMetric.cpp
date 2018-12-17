@@ -4,9 +4,9 @@
 
 #include "ClarkMetric.h"
 
-double ClarkMetric::metricValue(OBAtom atom_a, OBAtom atom_b){
-    OpenBabel::vector3 coords_a = atom_a.GetVector();
-    OpenBabel::vector3 coords_b = atom_b.GetVector();
+double ClarkMetric::metricValue(OBAtom *atom_a, OBAtom *atom_b){
+    OpenBabel::vector3 coords_a = atom_a->GetVector();
+    OpenBabel::vector3 coords_b = atom_b->GetVector();
 
     double result = 0.0;
     for(int i= 0; i < 3 ; i++){

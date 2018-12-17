@@ -15,7 +15,7 @@ class LanceWilliamsMetric : public BinaryMetric{
 
 public:
     LanceWilliamsMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

@@ -14,7 +14,7 @@ using namespace OpenBabel;
 class ChebyshevMetric : public BinaryMetric {
 public:
     ChebyshevMetric(){};
-    double metricValue(OBAtom atom_a, OBAtom atom_b );
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b );
 };
 
 

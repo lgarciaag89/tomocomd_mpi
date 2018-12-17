@@ -9,8 +9,8 @@
 
 class SumaTwoSides : public TernaryMetric {
 public:
-    SumaTwoSides(){};
-    double metricValue(BinaryMetric *metric,OBAtom atom_a, OBAtom atom_b,OBAtom atom_c);
+    SumaTwoSides(BinaryMetric *metric):TernaryMetric(metric){};
+    double metricValue(OBAtom *atom_a, OBAtom *atom_b,OBAtom *atom_c);
 };
 
 

@@ -22,6 +22,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/tomocomd_mpi.dir/src/metrics/PyramidVolumeMetric.cpp.o"
   "CMakeFiles/tomocomd_mpi.dir/src/metrics/BondAngleMetric.cpp.o"
   "CMakeFiles/tomocomd_mpi.dir/src/metrics/DihedralAngleMetric.cpp.o"
+  "CMakeFiles/tomocomd_mpi.dir/src/matrices/Matrix.cpp.o"
+  "CMakeFiles/tomocomd_mpi.dir/src/matrices/ComputeDiagonal.cpp.o"
+  "CMakeFiles/tomocomd_mpi.dir/src/matrices/SymMatrix.cpp.o"
+  "CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixTriples.cpp.o"
+  "CMakeFiles/tomocomd_mpi.dir/src/matrices/GenMatrixQuaterns.cpp.o"
   "tomocomd_mpi.pdb"
   "tomocomd_mpi"
 )
