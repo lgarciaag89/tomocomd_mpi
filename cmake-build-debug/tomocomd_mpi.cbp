@@ -112,6 +112,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/cutoff/Cutoff.h">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/includes/input/reader.h">
 			<Option target="tomocomd_mpi"/>
 		</Unit>
@@ -206,6 +209,9 @@
 			<Option target="tomocomd_mpi"/>
 		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/parallel_tomocomd.cpp">
+			<Option target="tomocomd_mpi"/>
+		</Unit>
+		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/cutoff/Cutoff.cpp">
 			<Option target="tomocomd_mpi"/>
 		</Unit>
 		<Unit filename="/media/DATA/05-WORKSPACE/ClionProjects/mi_tomocomd/tomocomd_mpi/src/input/reader.cpp">

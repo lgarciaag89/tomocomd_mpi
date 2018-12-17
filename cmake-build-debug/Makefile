@@ -150,6 +150,33 @@ parallel_tomocomd.cpp.s:
 	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/parallel_tomocomd.cpp.s
 .PHONY : parallel_tomocomd.cpp.s
 
+src/cutoff/Cutoff.o: src/cutoff/Cutoff.cpp.o
+
+.PHONY : src/cutoff/Cutoff.o
+
+# target to build an object file
+src/cutoff/Cutoff.cpp.o:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/cutoff/Cutoff.cpp.o
+.PHONY : src/cutoff/Cutoff.cpp.o
+
+src/cutoff/Cutoff.i: src/cutoff/Cutoff.cpp.i
+
+.PHONY : src/cutoff/Cutoff.i
+
+# target to preprocess a source file
+src/cutoff/Cutoff.cpp.i:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/cutoff/Cutoff.cpp.i
+.PHONY : src/cutoff/Cutoff.cpp.i
+
+src/cutoff/Cutoff.s: src/cutoff/Cutoff.cpp.s
+
+.PHONY : src/cutoff/Cutoff.s
+
+# target to generate assembly for a file
+src/cutoff/Cutoff.cpp.s:
+	$(MAKE) -f CMakeFiles/tomocomd_mpi.dir/build.make CMakeFiles/tomocomd_mpi.dir/src/cutoff/Cutoff.cpp.s
+.PHONY : src/cutoff/Cutoff.cpp.s
+
 src/input/reader.o: src/input/reader.cpp.o
 
 .PHONY : src/input/reader.o
@@ -891,6 +918,9 @@ help:
 	@echo "... parallel_tomocomd.o"
 	@echo "... parallel_tomocomd.i"
 	@echo "... parallel_tomocomd.s"
+	@echo "... src/cutoff/Cutoff.o"
+	@echo "... src/cutoff/Cutoff.i"
+	@echo "... src/cutoff/Cutoff.s"
 	@echo "... src/input/reader.o"
 	@echo "... src/input/reader.i"
 	@echo "... src/input/reader.s"
